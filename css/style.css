@@ -1,0 +1,632 @@
+p {
+    margin: 0;
+    font-size: 24px;
+}
+html{
+    min-height:100%;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-repeat: no-repeat;
+}
+/* LOGO */
+.contenedor-logo {
+    text-align: center;
+    color: white;
+}
+
+/* BOTONES */
+
+.btn-btns-carta {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 320px){
+    .btn-btns-carta{
+
+        display: none;
+    }
+}
+.btn-contenido-btns-carta {
+    
+}
+
+.contenedor-botones {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.botones {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+
+.contenedor-botones > div {
+
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+
+    
+}
+
+@media (min-width: 640px){
+
+
+    .btn-menu-diario {
+
+        grid-column: 1/4;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+   
+
+    .contenedor-botones {
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .contenedor-botones {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* IMAGENES BOTONES */
+
+.btn-ensaladas {
+    
+    background-image: url(/img/ensaladas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-entrantes {
+    background-image: url(/img/entrantes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-tostas {
+    background-image: url(/img/tostas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-hamburgesas {
+    background-image: url(/img/mini-hamburgesas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.btn-carnes{
+    background-image: url(/img/carnes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-bocadillos-calientes {
+    background-image: url(/img/bocadillos-calientes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-bocadillos-frios {
+    background-image: url(/img/bocadillos-frios.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-postres {
+    background-image: url(/img/postres.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-bebidas {
+    background-image: url(/img/bebidas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-menu-diario {
+    background-image: url(/img/menu-diario.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media(min-width: 640px){
+
+    .btn-menu-diario {
+        background-image: url(/img/menu-diario-largo.png);
+    }
+}
+
+/*//////////////// FIN CARTA BOTONES ////////////////*/
+
+.contenido-resultado-carta {
+
+    margin-bottom: 20px;
+}
+
+.titulo-contenedor {
+
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    margin-bottom: 20px;
+}
+.titulo-contenedor p {
+
+    text-align: center;
+    margin: 20px 0 20px 0;
+    color: white;
+    font-size: 32px;
+}
+
+.subtitulo-productos{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.subtitulo-productos P {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+@media (max-width: 750px){
+
+
+    .subtitulo-productos P {
+        font-size: 20px;
+        
+    }
+
+}
+
+@media (max-width: 640px){
+
+
+    .subtitulo-productos P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .subtitulo-productos P {
+        font-size: 9px;
+        
+    }
+
+}
+
+
+/* ENSALADAS */
+.contenedor-productos-ensaladas{
+    display: none;
+    
+}
+.contenido-ensaladas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-ensaladas p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-ensaladas P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-ensaladas P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN ENSALADAS ///////////////*/
+
+
+/* ENTRANTES */
+.contenedor-productos-entrantes{
+    display: none;
+}
+.contenido-entrantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-entrantes p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-entrantes P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-entrantes P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN ENTRANTES ///////////////*/
+
+
+/* TOSTAS */
+.contenedor-productos-tostas{
+    display: none;
+}
+.contenido-tostas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-tostas p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-tostas P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-tostas P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN TOSTAS ///////////////*/
+
+
+/* HAMBURGESAS */
+
+.contenedor-productos-hamburgesas{
+    display: none;
+}
+
+.contenido-hamburgesas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-hamburgesas p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-hamburgesas P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-hamburgesas P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN HAMBURGESAS ///////////////*/
+
+/* CARNES */
+
+.contenedor-productos-carnes{
+    display: none;
+}
+
+.contenido-carnes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-carnes p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-carnes P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-carnes P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN CARNES ///////////////*/
+
+
+/* BOCADILLOS CALIENTES */
+
+.contenedor-productos-bocadillos-calientes{
+    display: none;
+}
+
+.contenido-bocadillos-calientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-bocadillos-calientes p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-bocadillos-calientes P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-bocadillos-calientes P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN BOCADILLOS CALIENTES ///////////////*/
+
+/* BOCADILLOS FRIOS */
+
+.contenedor-productos-bocadillos-frios{
+    display: none;
+}
+
+.contenido-bocadillos-frios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-bocadillos-frios p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-bocadillos-frios P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-bocadillos-frios P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN BOCADILLOS FRIOS ///////////////*/
+
+
+/* POSTRES */
+
+.contenedor-productos-postres{
+    display: none;
+}
+
+.contenido-postres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-postres p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-postres P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-postres P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN POSTRES ///////////////*/
+
+/* BEBIDAS */
+
+.contenedor-productos-bebidas{
+    display: none;
+}
+
+.contenido-bebidas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+
+}
+
+.contenido-bebidas p {
+
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 640px){
+
+
+    .contenido-bebidas P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .contenido-bebidas P {
+        font-size: 9px;
+        
+    }
+
+}
+
+/*///////////// FIN BEBIDAS ///////////////*/
+
+/* PIE DE PAGINA */
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px 0 10px 0;
+}
