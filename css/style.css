@@ -1,6 +1,37 @@
 p {
     margin: 0;
     font-size: 24px;
+    font-size: 20px;
+}
+
+@media (max-width: 750px){
+
+
+    P {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media (max-width: 640px){
+
+
+     P {
+        font-size: 16px;
+        
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+     P {
+        font-size: 8px;
+        
+    }
+
 }
 html{
     min-height:100%;
@@ -209,41 +240,11 @@ html{
 .subtitulo-productos P {
     text-align: center;
     margin: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
     color: white;
     border: 1px solid white;
     
 }
-
-@media (max-width: 750px){
-
-
-    .subtitulo-productos P {
-        font-size: 20px;
-        
-    }
-
-}
-
-@media (max-width: 640px){
-
-
-    .subtitulo-productos P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .subtitulo-productos P {
-        font-size: 9px;
-        
-    }
-
-}
-
 
 /* ENSALADAS */
 .contenedor-productos-ensaladas{
@@ -264,25 +265,6 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
-
-
-    .contenido-ensaladas P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-ensaladas P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN ENSALADAS ///////////////*/
 
@@ -305,25 +287,6 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
-
-
-    .contenido-entrantes P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-entrantes P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN ENTRANTES ///////////////*/
 
@@ -346,25 +309,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-tostas P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-tostas P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN TOSTAS ///////////////*/
 
@@ -389,25 +334,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-hamburgesas P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-hamburgesas P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN HAMBURGESAS ///////////////*/
 
@@ -431,25 +358,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-carnes P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-carnes P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN CARNES ///////////////*/
 
@@ -474,25 +383,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-bocadillos-calientes P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-bocadillos-calientes P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN BOCADILLOS CALIENTES ///////////////*/
 
@@ -516,25 +407,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-bocadillos-frios P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-bocadillos-frios P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN BOCADILLOS FRIOS ///////////////*/
 
@@ -550,7 +423,6 @@ html{
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
     
-
 }
 
 .contenido-postres p {
@@ -559,25 +431,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-postres P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-postres P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN POSTRES ///////////////*/
 
@@ -601,25 +455,7 @@ html{
     color: white;
 }
 
-@media (max-width: 640px){
 
-
-    .contenido-bebidas P {
-        font-size: 18px;
-        
-    }
-
-}
-
-@media (max-width: 320px){
-
-
-    .contenido-bebidas P {
-        font-size: 9px;
-        
-    }
-
-}
 
 /*///////////// FIN BEBIDAS ///////////////*/
 
